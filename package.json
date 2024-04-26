@@ -1,0 +1,34 @@
+{
+  "name": "vite-plugin-pages",
+  "description": "vite multiple pages plugin",
+  "author": "guobin211",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guobin211/vite-plugin-pages"
+  },
+  "module": "dist/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "version": "0.1.0",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "update": "pnpm update"
+  },
+  "type": "module",
+  "dependencies": {
+    "connect-history-api-fallback": "2.0.0",
+    "fast-glob": "^3.3.2",
+    "shelljs": "0.8.5"
+  },
+  "devDependencies": {
+    "@types/connect-history-api-fallback": "1.5.4",
+    "@types/shelljs": "0.8.15",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10",
+    "vite-plugin-dts": "^3.9.0"
+  }
+}

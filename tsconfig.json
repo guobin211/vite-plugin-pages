@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "esModuleInterop": false,
+    "outDir": "dist",
+    "sourceMap": false,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src"]
+}
